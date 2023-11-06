@@ -4,6 +4,7 @@ import Source from "../components/Source";
 
 import styles from "../sass/pages/Sourcing.module.scss";
 import SourceNewModal from "../components/modals/SourceNewModal";
+import source from "../models/source";
 
 const DUMMY_SOURCES: source[] = [
   {

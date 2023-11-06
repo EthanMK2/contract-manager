@@ -1,3 +1,5 @@
+import source from "../models/source";
+
 type sourceProps = {
   source: source;
   onDelete: (id: string) => void;

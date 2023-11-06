@@ -7,3 +7,5 @@ type inspection = {
     checklist: Array<inspectionTask>,
     status: string,  // passed, failed, incomplete
 }
+
+export default inspection;
